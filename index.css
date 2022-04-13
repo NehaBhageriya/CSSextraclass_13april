@@ -1,0 +1,35 @@
+.box1{
+    width:200px;
+    height:200px;
+    background-color: red;
+    animation-name: demo;
+
+    animation-duration: 5s;
+    position :absolute;
+    animation-delay:5s;
+    animation-iteration-count: 2;/*infinite*/
+    animation-direction:normal;/*reverse*/
+}
+@keyframes demo {
+    0%{
+        background-color: red;
+        top:0px;
+        left:0px;
+    }25%{
+        background-color: red;
+        top:0px;
+        left:400px;
+    }50%{
+        background-color: red;
+        top:200px;
+        left:400px;
+    }75%{
+        background-color: red;
+        top:200px;
+        left:0px;
+    }100%{
+        background-color: red;
+        top:0px;
+        left:0px;
+    }
+}
